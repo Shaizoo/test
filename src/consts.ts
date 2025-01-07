@@ -2,15 +2,15 @@ import type { Site, Page, Links, Socials } from "@types"
 
 // Global
 export const SITE: Site = {
-  TITLE: "Astro Sphere",
-  DESCRIPTION: "Welcome to Astro Sphere, a portfolio and blog for designers and developers.",
+  TITLE: "Portfolio Logan Salé",
+  DESCRIPTION: "Bienvenue sur le portfolio de Logan  Salé.",
   AUTHOR: "Mark Horn",
 }
 
 // Work Page
 export const WORK: Page = {
-  TITLE: "Work",
-  DESCRIPTION: "Places I have worked.",
+  TITLE: "Stages",
+  DESCRIPTION: "Stages que j'ai éffectués.",
 }
 
 // Blog Page
@@ -21,33 +21,33 @@ export const BLOG: Page = {
 
 // Projects Page 
 export const PROJECTS: Page = {
-  TITLE: "Projects",
-  DESCRIPTION: "Recent projects I have worked on.",
+  TITLE: "Projets",
+  DESCRIPTION: "Projets récent sur  lequel j'ai travaillé.",
 }
 
 // Search Page
 export const SEARCH: Page = {
-  TITLE: "Search",
-  DESCRIPTION: "Search all posts and projects by keyword.",
+  TITLE: "Recherche",
+  DESCRIPTION: "Recherche les projets et posts avec un mot clé.",
 }
 
 // Links
 export const LINKS: Links = [
   { 
-    TEXT: "Home", 
+    TEXT: "Acceuil", 
     HREF: "/", 
   },
   { 
-    TEXT: "Work", 
-    HREF: "/work", 
+    TEXT: "Stages", 
+    HREF: "/Stages", 
   },
   { 
     TEXT: "Blog", 
     HREF: "/blog", 
   },
   { 
-    TEXT: "Projects", 
-    HREF: "/projects", 
+    TEXT: "Projets", 
+    HREF: "/projets", 
   },
 ]
 
@@ -56,26 +56,26 @@ export const SOCIALS: Socials = [
   { 
     NAME: "Email",
     ICON: "email", 
-    TEXT: "markhorn.dev@gmail.com",
-    HREF: "mailto:markhorn.dev@gmail.com",
+    TEXT: "sale.logan99@gmail.com",
+    HREF: "mailto:sale.logan99@gmail.com",
   },
   { 
     NAME: "Github",
     ICON: "github",
-    TEXT: "markhorn-dev",
-    HREF: "https://github.com/markhorn-dev/astro-sphere"
+    TEXT: "Shaizoo",
+    HREF: "https://github.com/Shaizoo"
   },
   { 
     NAME: "LinkedIn",
     ICON: "linkedin",
-    TEXT: "markhorn-dev",
-    HREF: "https://www.linkedin.com/in/markhorn-dev/",
+    TEXT: "Logan Salé",
+    HREF: "https://www.linkedin.com/in/logan-salé/",
   },
   { 
-    NAME: "Twitter",
-    ICON: "twitter-x",
-    TEXT: "markhorn_dev",
-    HREF: "https://twitter.com/markhorn_dev",
+    NAME: "Instagram",
+    ICON: "Instagram",
+    TEXT: "logan Salé",
+    HREF: "https://instagram.com/logansale_",
   },
 ]
 
