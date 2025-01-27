@@ -15,8 +15,8 @@ export const WORK: Page = {
 
 // Blog Page
 export const BLOG: Page = {
-  TITLE: "Blog",
-  DESCRIPTION: "Writing on topics I am passionate about.",
+  TITLE: "Fiches procédure",
+  DESCRIPTION: "Quelques fiches procédure que j'ai pu réaliser",
 };
 
 // Projects Page
@@ -42,8 +42,8 @@ export const LINKS: Links = [
     HREF: "/stages",
   },
   {
-    TEXT: "Blog",
-    HREF: "/blog",
+    TEXT: "Fiches procédure",
+    HREF: "/FP",
   },
   {
     TEXT: "Projets",
