@@ -34,7 +34,7 @@ export const SEARCH: Page = {
 // Links
 export const LINKS: Links = [
   {
-    TEXT: "Acceuil",
+    TEXT: "Accueil",
     HREF: "/",
   },
   {
@@ -43,7 +43,7 @@ export const LINKS: Links = [
   },
   {
     TEXT: "Fiches procédure",
-    HREF: "/FP",
+    HREF: "/blog",
   },
   {
     TEXT: "Projets",
