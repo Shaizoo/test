@@ -31,6 +31,12 @@ export const SEARCH: Page = {
   DESCRIPTION: "Recherche les projets et posts avec un mot clé.",
 };
 
+// Page de compétences
+export const COMPETENCE: Page = {
+  TITLE: "Compétences",
+  DESCRIPTION: "Voici ma grille de compétences",
+};
+
 // Links
 export const LINKS: Links = [
   {
@@ -48,6 +54,10 @@ export const LINKS: Links = [
   {
     TEXT: "Projets",
     HREF: "/projects",
+  },
+  {
+    TEXT: "Compétences",
+    HREF: "/compétences",
   },
 ];
 
